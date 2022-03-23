@@ -1,5 +1,6 @@
 import logo from "./logo.png";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -8,7 +9,12 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="Search Logo" />
         </header>
-        <footer className="text-center">Coded by Olivia</footer>
+        <main>
+          <Dictionary />
+        </main>
+        <small>
+          <footer className="App-footer">Coded by Olivia</footer>
+        </small>
       </div>
     </div>
   );
