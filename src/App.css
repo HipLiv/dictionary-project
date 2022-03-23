@@ -1,5 +1,7 @@
 .App-header {
   margin: 30px 0;
+  background: #f0fbff;
+  border-radius: 5px;
 }
 
 .App-logo {
@@ -10,4 +12,11 @@
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  color: #393e46;
 }
