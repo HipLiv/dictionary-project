@@ -1,3 +1,9 @@
+body {
+  background: #5585b5;
+}
+a {
+  color: #5585b5;
+}
 .App {
   max-width: 960px;
   margin: 0 auto;
